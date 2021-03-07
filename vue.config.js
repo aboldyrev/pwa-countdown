@@ -6,7 +6,7 @@ const path = require('path')
  */
 module.exports = {
 	productionSourceMap: false,
-	publicPath: 'pwa-countdown',
+	publicPath: '/pwa-countdown',
 	outputDir: 'docs',
 	configureWebpack: {
 		plugins: [
