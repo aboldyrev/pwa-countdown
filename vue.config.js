@@ -6,7 +6,7 @@ const path = require('path')
  */
 module.exports = {
 	productionSourceMap: false,
-	outputDir: 'public',
+	outputDir: 'docs',
 	configureWebpack: {
 		plugins: [
 			new copyWebpackPlugin({
