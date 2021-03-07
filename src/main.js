@@ -55,6 +55,8 @@ const store = new Vuex.Store({
 		editItem(state, data) {
 			let index = state.items.findIndex((item) => { return item.id == data.id });
 			state.items[index].name = data.name;
+			state.items[index].date = data.date;
+			state.items[index].time = data.time;
 		},
 		removeItem(state, id) {
 			let index = state.items.findIndex(item => item.id == id);
